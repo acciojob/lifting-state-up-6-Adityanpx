@@ -36,7 +36,7 @@ const App = () => {
   
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div >
       <h1>Parent Component</h1>
       <TodoList todo={todos} handleComplete={handleComplete} />
     </div>
